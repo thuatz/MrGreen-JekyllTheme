@@ -37,14 +37,5 @@ date: 2021-08-11 12:35:04 +0900
 #published: false
 ---
 
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
+duanmoi.net là nơi chia sẻ kiến thức về công nghệ và thi công các giải pháp công nghệ
 
-{%- include util/auto-content-generator.liquid -%}
-
-<!-- outline-start -->
-
-{{ website_info_text_first }}
-
-<!-- outline-end -->
-
-{{ website_info_text_second }}

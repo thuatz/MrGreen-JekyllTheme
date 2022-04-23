@@ -1,43 +1,43 @@
 lng:
-  name: English
+  name: Vietnamese
   # based on ISO_639-1 https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
-  code: en
+  code: vi
   # specifically needed for open-graph meta og:locale. if open-graph not enabled, not necessary
   # For html tags, you can enable or disable using html_lng_with_country_code defined in _data/conf/main.yml
   # based on ISO_3166-1 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
-  country: US
-  switch_title: En
+  country: VN
+  switch_title: Viet
   offer:
-    title: Language
-    msg_page: View this page in English.
+    title: Ngôn ngữ
+    msg_page: Xem trang này bằng tiếng Việt.
     # if page translation is not available, use this.
-    msg_site: To English home page
+    msg_site: Đến trang tiếng Việt
 
 date:
   long: "%b %-d, %Y"
   day: "%d"
   year: "%Y"
-  months: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+  months: [Thg1, Thg2, Thg3, Thg4, Thg5, Thg6, Thg7, Thg8, Thg9, Thg10, Thg11, Thg12]
 
 not_found:
-  header: Page not found
-  line1: The page you requested could not be found.
-  line2: Try menu, or site search if available.
+  header: Không tìm thấy trang
+  line1: Trang mà bạn yêu cầu không có trên hệ thống.
+  line2: Thử vào menu hoặc nút tìm kiếm trên website.
 
-no_translation_tooltip: No Translation
+no_translation_tooltip: Không có bản dịch
 
 navigation:
-  brand_sub_text: Jekyll theme
-  contact_header: Contact
+  brand_sub_text: Dự án mới
+  contact_header: Liên hệ
 
-color_scheme_switch_tooltip: Color scheme
+color_scheme_switch_tooltip: Tông màu
 
 search:
-  placeholder: Search
-  noResultText: No results found.
+  placeholder: Tìm kiếm
+  noResultText: Không có kết quả.
 
 image_viewer:
-  load_error: The image could not be loaded.
+  load_error: Không thể tải hình.
 
 copyright:
   additional_text: " All rights reserved."
@@ -59,13 +59,13 @@ not-found:
 # for post layout
 post:
   read_time:
-    unit: " min"
-    text: " read"
+    unit: " phút"
+    text: " đọc"
   pager_buttons:
-    older_post: "← Older Post"
-    newer_post: "Newer Post →"
-    first_post: First
-    last_post: Last
+    older_post: "← Bài cũ hơn"
+    newer_post: "Bài mới hơn →"
+    first_post: Đầu
+    last_post: Cuối
   comments:
     disqus:
       count_title: Comments
@@ -83,13 +83,13 @@ post:
           load_once: Show only this time
           load_and_do_not_ask_again: Always show
   table_of_contents:
-    heading: Contents
+    heading: Mục lục
     tooltip:
-      move: Drag to move
-      close: Close
+      move: Kéo để di chuyển
+      close: Đóng
   share:
-    heading: Share on
-    link_copied: Link copied!
+    heading: Chia sẻ trên
+    link_copied: Đã sao chép link!
     tooltip:
       # keys need to match with _data/share.yml
       twitter: Twitter
@@ -97,7 +97,7 @@ post:
       telegram: Telegram
       linkedin: LinkedIn
       email: Email
-      copy_link: Copy link
+      copy_link: Sao chép link
 
 # for post-list layout
 post-list:
@@ -105,99 +105,99 @@ post-list:
   button_name: Blog
   upside_down_tabs:
     tab:
-      all: All
-      categories: Categories
-      tags: Tags
-      years: Years
-      clear: Clear
-      close: Close
+      all: Tất cả
+      categories: Phân loại
+      tags: Thẻ
+      years: Năm
+      clear: Xóa
+      close: Đóng
       tooltip:
-        clear: Clear
-        close: Close
+        clear: Xóa
+        close: Đóng
     msg:
       property_list:
         # keys need to match with /query/post-query.json
-        tags: Tag
-        category: Category
-        year: Year
+        tags: Thẻ
+        category: Loại
+        year: Năm
       # you can use these wildcards, {property} {value} {thumb}
       resultFoundTitleFormat: "{property} : {thumb}"
 
 # for home layout
 home:
-  title: Welcome
-  button_name: Home
-  new_posts_title: New Articles
-  new_posts_show_more_button: View More ...
+  title: Chào mừng
+  button_name: Trang chủ
+  new_posts_title: Bài viết mới
+  new_posts_show_more_button: Xem thêm ...
   # you can use $site_brand in line1 and line2 to convert your site.data.owner.brand text
-  top_header_line1: "Welcome To"
+  top_header_line1: "Chào mừng đến với"
   # if commented, top header will be a single line
-  top_header_line2: "$site_brand Theme"
+  top_header_line2: "$site_brand"
 
 # for archives layout
 archives:
-  title: Archive
-  button_name: Archive
-  page_header: Archive
+  title: Kho lưu trữ
+  button_name: Kho lưu trữ
+  page_header: Kho lưu trữ
 
 # for about layout
 about:
-  title: About
-  button_name: About
-  sub_title: "Awesome jekyll theme"
+  title: Giới thiệu
+  button_name: Giới thiệu
+  sub_title: "Dự án mới"
   email_title: email
 
 # for links layout
 links:
-  title: Links
-  button_name: Links
-  link_text: Web site
-  info_text: Info
+  title: Liên kết
+  button_name: Liên kết
+  link_text: Trang web
+  info_text: Thông tin
 
 # for projects layout
 projects:
-  title: Projects
-  button_name: Projects
-  read_more_text: Read more
-  read_less_text: Read less
+  title: Các dự án
+  button_name: Các dự án
+  read_more_text: Đọc thêm
+  read_less_text: Thu gọn
 
 # for privacy-policy layout
 privacy-policy:
-  title: &privacy_policy_title Privacy policy
+  title: &privacy_policy_title Quyền riêng tư
 
 # seo meta this is needed for each language
 # If meta_description is not defined in front matter, it's created from (post / page) content,
 # if it has no content, this will be used for page description. It is also used in manifest.json
-meta_common_description: &meta_info $site_brand is a multilingual theme generated with Jekyll and fully compatible with GitHub Pages.
+meta_common_description: &meta_info $site_brand là trang web chia sẻ về công nghệ và thi công các dự án công nghệ.
 
 auto_content:
-  title: Sample post (auto generated)
-  greeting: Hello!
+  title: Thử nghiệm (Bài viết được tạo tự động)
+  greeting: Xin chào!
   text: *meta_info
-  more_info: Learn More.
-  auto_generated_text: This is an auto generated sample content for display in the selected language.
+  more_info: Tìm hiểu thêm.
+  auto_generated_text: Bài viết này được tạo tự động để vận hành thử trang web.
 
 cookie_consent:
   privacy_policy_link_text: *privacy_policy_title
-  side_nav_setting_button_tooltip: &cookie_settings Cookie settings
+  side_nav_setting_button_tooltip: &cookie_settings Cài đặt Cookies
   panel_bar:
     msg: >
-      This website uses cookies to optimize site functionality.
-      It will be activated with your approval. Check $privacy_link
+      Trang web này sử dụng cookies để tối ưu hóa trải nghiệm.
+      Cookies được chấp nhập bởi bạn. Kiểm tra $privacy_link
     buttons:
-      accept: &accept_button Allow all
-      settings: Customize
-      deny: &deny_button Deny
+      accept: &accept_button Chấp nhận
+      settings: Tùy chọn
+      deny: &deny_button Từ chối
   panel_settings:
     title: *cookie_settings
     msg: >
-      This website uses cookies to optimize site functionality.
-      It will be activated with your approval. Please click each item below for cookie policy. Check $privacy_link
+      Trang web này sử dụng cookies để tối ưu hóa trải nghiệm.
+      Cookies được chấp nhập bởi bạn. Vui lòng chọn từng mục để chấp nhận cookies. Kiểm tra $privacy_link
     buttons:
       accept: *accept_button
-      save: Allow selection
+      save: Đồng ý mục đã chọn
       deny: *deny_button
-    always_active: Always active
+    always_active: Luôn luôn bật
     consent_types:
       necessary:
         title: Strictly necessary cookies

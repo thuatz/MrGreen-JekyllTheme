@@ -34,11 +34,5 @@ search_engine_exclude: true
 #published: false
 ---
 
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
+duanmoi.net là nơi chia sẻ kiến thức về công nghệ và thi công các giải pháp công nghệ
 
-{%- include util/auto-content-generator.liquid -%}
-{{ page_title_text }}
-
-{{ website_info_text }}
-
-{{ website_info_text_second }}

@@ -24,7 +24,7 @@ layout: default
   {%- capture color_style -%} style="color:{{ project_data.main.text_color }};" {%-endcapture-%}
 {%- endif %}
   <h1 {{ color_style }}>{{ project_data.main.header | default: "Projects" }}</h1>
-  <p {{ color_style }}>{{ project_data.main.info | default: "No data, check page_data in [language]/tabs/projects.md front matter or _data/content/projects/[language].yml" }}</p>
+  <p {{ color_style }}>Mọi chi tiết vui lòng liên hệ thienthuatng@gmail.com</p>
   <div class="multipurpose-button-wrapper">
   {% for category in project_data.category %}
     <a href="#{{ category.type }}" role="button" class="multipurpose-button project-buttons" style="background-color:{{ category.color }};">{{ category.title }}</a>

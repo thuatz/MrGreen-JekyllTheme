@@ -34,11 +34,4 @@ search_engine_exclude: true
 #published: false
 ---
 
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
-
-{%- include util/auto-content-generator.liquid -%}
-{{ page_title_text }}
-
-{{ website_info_text }}
-
-{{ website_info_text_second }}
+(Nội dung đang được cập nhật)
