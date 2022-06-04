@@ -34,4 +34,5 @@ search_engine_exclude: true
 #published: false
 ---
 
-(Nội dung đang được cập nhật)
+Bằng việc sử dụng trang web này, bạn đồng ý với chính sách về quyền riêng tư ở đây:
+<https://www.termsfeed.com/live/5c575cbb-4a84-4f41-9866-3046535a5820>
